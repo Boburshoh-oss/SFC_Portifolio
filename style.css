@@ -1,0 +1,555 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+section{
+    padding: 100px;
+}
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background:url(https://i.siteapi.org/bJoyJRVAERR7ChcKVaOxaQ8UefY=/fit-in/1400x1000/center/top/aee0bade587cdeb.ru.s.siteapi.org/img/q3nn8dvxq9cowks4ccksccwogo8w80);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner h2{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.banner h2 span{
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1em;
+}
+.banner h3{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+}
+.btnn{
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+.sticky{
+    background: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+.sticky .logo{
+    color: rgb(25, 13, 197);
+}
+.sticky .logojon span{
+    color: #111;
+}
+.logojon span{
+    color: #fff;
+}
+header .logo{
+    color: #fff;
+    line-height: 3;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 2px;
+
+}
+header ul{
+    position: relative;
+    display: flex;
+    margin-bottom: 0;
+}
+
+header ul li{
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.logojon{
+    display: flex;
+}
+
+.logojon .logo span{
+    margin-top: 5px;
+}
+.sticky ul li a {
+    color:rgb(25, 13, 197);
+}
+
+.btn a{
+    color:#fff ;
+    padding: 0 20px;
+}
+.banner{padding: 100px 150px;}
+.heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color:#111;
+    margin-bottom: 8em;
+}
+.contact .heading{
+    color: #f7f7f7;
+}
+.heading h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+.textBx .aloxida{
+    width: 400px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.contentBx {
+    padding-right: 30px;
+}
+.contentBx h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.contentBx p{
+    line-height: 1.5em;
+}
+.contentBc{
+    padding: 10px;
+    display: flex;
+}
+.contentt .yonqism{
+    float: left;
+    color: #fff;
+}
+.contentt .ongqismi{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.button{
+    margin-top: 45px;
+    text-align:center ;
+    justify-content: center;
+}
+.button .btn{
+    padding: 10px;
+}
+.left{
+    width: 100%;
+    margin-right:90px;
+}
+.right{
+    width:100%
+}
+.left .card{
+    width: 380px;
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+.right .card{
+    width: 380px;
+    border:1px solid blue;
+    margin-bottom: 20px;
+}
+.card-img, .card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    height: 250px;
+}
+.text{
+    margin:auto ;
+    font-weight: 600;
+    justify-content: center;
+    justify-items: center;
+}
+.w50{
+    min-width: 50%;
+}
+
+.services{
+    background-image: url("https://i.ytimg.com/vi/KFNxdXEe0Ko/maxresdefault.jpg");
+    background-color: rgba(9, 11, 22, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services .heading{
+    color: #fff;
+}
+.services .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flexx img{
+    float: left;
+}
+.flexx h3{
+    float: right;
+}
+.eslat{
+    padding: 60px 100px;
+    background-color: rgb(25, 13, 197);
+}
+section .eslatma{
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    justify-content: center;
+    justify-items: center;
+}
+section .eslatma p{
+    float: left;
+}
+section .eslatma button{
+    float: right;
+    background-color: rgb(255, 255, 255);
+}
+.services .content .servicesBx{
+    padding: 40px 20px;
+    background:#222;
+    color: #fff;
+    max-width: 340px;
+    margin: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+.services .content .servicesBx img{
+    margin-bottom: 10px;
+    filter: invert(1);
+}
+.services .content .servicesBx:hover{
+    background:#2196f3;
+    cursor: pointer;
+}
+.services .content .servicesBx h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.workBx img{
+    max-width: 100%;
+    max-height: 400px;
+}
+.work .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.work .content .workBx{
+    width: 50%;
+    padding: 20px;
+}
+.testimonial{
+    background: #f7f7f7;
+}
+.testimonial .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.testimonial .content .testimonialBx{
+    max-width: calc(50% - 40px);
+    padding: 60px 40px;
+    margin: 20px;
+    background: #2196F3;
+}
+.testimonial .content .testimonialBx p{
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+}
+.testimonial .content .testimonialBx h3{
+    margin-top: 40px;
+    text-align: end;
+    color:#fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1em;
+}
+.testimonial .content .testimonialBx h3 span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.contact{
+    background: #111;
+}
+.formBx{
+    min-width: 60%;
+
+}
+.formBx form{
+    display: flex;
+    flex-direction: column;
+}
+.formBx form h3,.contactInfo h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contactInfo{
+    width: 100%;
+}
+.formBx form input,
+.formBx form textarea
+{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+    resize: none;
+}
+.formBx form textarea{
+    min-height: 200px;
+}
+.formBx form input::placeholder,
+.formBx form textarea::placeholder{
+    color: #999;
+}
+.formBx form input[type="submit"]{
+    max-width: 100px;
+    background: #2196f3;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+.contactInfo{
+    min-width: 40%;
+}
+.contactInfoBx{
+    position: relative;
+}
+.contactInfoBx .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.contactInfoBx .box .icon{
+    min-width: 40px;
+    padding-top: 4px;
+    color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 24px;
+}
+.contactInfoBx .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.contactInfoBx .box .text h3{
+    font-weight: 500;
+    color:#2196f3;
+    margin-bottom: 3px;
+}
+.copyright{
+    background: #000;
+    color: #fff;
+    padding: 40px 30px;
+    justify-content: center;
+}
+.copyright p{
+    float: left;
+}
+.copyright .icons{
+   
+    float: right;
+    display: flex;
+}
+.copyright .icons .icon{
+    padding: 5px;
+
+}
+
+@media (min-width:600px)and(max-width:991px){
+    header,
+    header.sticky{
+        padding: 20px 50px;
+        z-index: 1000;
+    }
+    .menu{
+        position: fixed;
+        top:68px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #fff !important;
+        transition: 0.5s;
+        z-index:999;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .active{
+        left: 0;
+        background: #fff;
+    }
+    header ul li a{
+        color: #111;
+        font-weight: 700;
+        font-size: 24px;
+        margin:10px;
+    }
+    .toogle{
+        width: 40px;
+        height: 40px;
+        background: url(http://assets.stickpng.com/thumbs/588a64fed06f6719692a2d14.png);
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        background-size: 30px;
+        background-position: center;
+        cursor: pointer;
+    }
+    .active{
+        background: url(https://www.clipartmax.com/png/full/401-4013277_close-button-close-button.png);
+        background-repeat: no-repeat;
+        background-size: 35px;
+        background-position: center;
+        cursor: pointer;
+    }
+    header.sticky .toogle{
+        filter: invert(1);
+    }
+    section{
+        padding: 100px 50px;
+    }
+    .banner{
+        padding: 150px 50px 100px;
+    }
+    .banner h2{
+        font-size: 1.5em;
+    }
+    .banner h3{
+        font-size: 1em;
+    }
+    .btn{
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .heading h2{
+        font-size: 24px;
+    }
+    .contentBx h3{
+        font-size: 20px;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .w50{
+        margin-bottom: 20px;
+    }
+    .services .content .servicesBx{
+        margin: 10px;
+    }
+    .work .content .workBx {
+        width: 100%;
+        padding: 10px;
+    }
+    .testimonial .content .testimonialBx {
+        max-width: calc(100% - 20px);
+        padding: 40px 20px;
+        margin: 10px;
+        background: #2196F3;
+    }
+    .testimonial .content .testimonialBx h3 {
+        margin-top: 20px;
+    }
+    .contactInfo {
+        min-width: 40%;
+        margin: 20px 0;
+    }
+    .content.row.col-md-4.right{
+        margin-left: 0 !important;
+    }
+    .content.row.col-md-4.right .card{
+        width: 100% !important;
+    }
+}
+@media (max-width:600px){
+    header,
+    header.sticky{
+        padding: 20px 20px;
+        z-index: 1000;
+    }
+    .banner {
+        padding: 150px 20px 100px;
+    }
+    section {
+        padding: 100px 20px;
+    }
+    .w5 .img {
+        width: 100%;
+    }
+
+    .row .col-md-4{
+        width: 100%;
+    }
+    .row .col-md-4 .card{
+        width: 100%;
+    }
+    .right{
+        margin-left: 0;
+    }
+    .eslat{
+        box-sizing: border-box;
+    }
+    .eslat .eslatma p{
+        display: none;
+    }
+    .eslat .eslatma button{
+        position: relative;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .col-md-4{
+        margin-bottom: 5px;
+    }
+}
